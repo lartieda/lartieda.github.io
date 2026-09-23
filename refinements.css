@@ -1,0 +1,11 @@
+/* Small interaction and readability refinements. */
+.intro { max-width: 680px; }
+.button { transition: transform .18s ease, background .18s ease; }
+.button:hover { transform: translateY(-2px); background: #c8ec4a; }
+.button.dark:hover { background: #263e32; }
+.text-link, .project-link, footer a { text-underline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .button { transition: none; }
+  .button:hover { transform: none; }
+}
