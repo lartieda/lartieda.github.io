@@ -4,6 +4,10 @@
 .button:hover { transform: translateY(-2px); background: #c8ec4a; }
 .button.dark:hover { background: #263e32; }
 .text-link, .project-link, footer a { text-underline-offset: 4px; }
+.dashboard-preview { align-self: center; display: block; background: #fff; border: 1px solid var(--line); padding: 12px; text-decoration: none; transition: transform .18s ease; }
+.dashboard-preview:hover { transform: translateY(-3px); }
+.dashboard-preview img { display: block; width: 100%; height: auto; }
+.dashboard-preview span { display: block; margin-top: 10px; color: var(--ink); font: 10px "DM Mono", monospace; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .button { transition: none; }
